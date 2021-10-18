@@ -1,3 +1,8 @@
+Control panel for server rack
+
+Live demo: https://azamathasan.github.io/controlpanel/
+
+
 # control-panel
 
 ## Project setup
