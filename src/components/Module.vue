@@ -1,24 +1,5 @@
 <template>
-    <!-- <div :class="'module module--'+state" @click="$emit('moduleClick', $event.target.click)"> -->
-    <!-- <div :class="'module module--'+state" @click="$emit('moduleClick', $event.target)"> -->
-    <!-- <div v-if="checkClickedId" :class="moduleClassClicked" @click="$emit('moduleClick', returnIds )">
-                            <div class="module__top">
-                                <div class="module__led"></div>
-                                <div class="module__led"></div>
-                                <div class="module__led"></div>
-                                <div class="module__led"></div>
-                                <div class="module__led"></div>
-                                <div class="module__led"></div>
-                            </div>
-                            <div class="module__bottom">
-                                <div class="module__connector"></div>
-                                <div class="module__connector"></div>
-                                <div class="module__connector"></div>
-                                <div class="module__connector"></div>
-                                <div class="module__connector"></div>
-                                <div class="module__connector"></div>
-                            </div>
-        </div> -->
+
     <div :class="moduleClass" @click="$emit('moduleClick', returnIds )">
                             <div class="module__top">
                                 <div class="module__led"></div>

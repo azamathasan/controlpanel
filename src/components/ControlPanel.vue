@@ -15,52 +15,6 @@
                             :clicked="clicked[device.id][module.id]"
                             @moduleClick="moduleClickMethod"
                         ></Modules>
-                        <!-- <Modules 
-                            v-for="module in device.modules" 
-                            :moduleId="module.id" 
-                            :deviceId="device.id" 
-                            :key="module.id" 
-                            :state="module.state"
-                            :clicked="this.clicked[device.id][module.id]"
-                            :clickedId="this.clickedId"
-                            @moduleClick="moduleClickMethod"
-                        ></Modules> -->
-                        <!-- <Modules 
-                            v-for="module in device.modules" 
-                            :moduleId="module.id" 
-                            :deviceId="device.id" 
-                            :key="module.id" 
-                            :state="module.state"
-                            :clicked="this.clicked[device.id][module.id]"
-                            @moduleClick="moduleClickMethod"
-                        ></Modules> -->
-                        <!-- <Modules 
-                            v-for="module in device.modules" 
-                            :moduleId="module.id" 
-                            :deviceId="device.id" 
-                            :key="module.id" 
-                            :state="module.state"
-                            :clicked="module.clicked"
-                            @moduleClick="moduleClickMethod"
-                        ></Modules> -->
-                        <!-- <div v-for="module in device.modules" :key="module.id" :class="'module module--'+module.state">
-                            <div class="module__top">
-                                <div class="module__led"></div>
-                                <div class="module__led"></div>
-                                <div class="module__led"></div>
-                                <div class="module__led"></div>
-                                <div class="module__led"></div>
-                                <div class="module__led"></div>
-                            </div>
-                            <div class="module__bottom">
-                                <div class="module__connector"></div>
-                                <div class="module__connector"></div>
-                                <div class="module__connector"></div>
-                                <div class="module__connector"></div>
-                                <div class="module__connector"></div>
-                                <div class="module__connector"></div>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
         </div>
@@ -77,65 +31,9 @@
                     :clickedId="this.clickedId"
                     @toggleChange="changeParamsMethod"
                 ></Params>
-                <!-- <Params 
-                    v-if="showParams"
-                    :clicked="this.clicked"
-                    :clickedId="this.clickedId"
-                    @toggleChange="changeParamsMethod"
-                ></Params> -->
-                <!-- <Params 
-                    v-if="showParams"
-                    :clickedModule="this.clickedModule"
-                    @changeParams="changeParamsMethod"
-                ></Params> -->
 
-                <!-- <div class="info-params">
-                    <div class="info-params__param">
-                        <div class="info-params__marker"></div>
-                        <div class="info-params__label">Type: switch</div>
-                    </div>
-                    <div class="info-params__param">
-                        <div class="info-params__marker"></div>
-                        <div class="info-params__label">IP: 192.168.1.1</div>
-                    </div>
-                    <div class="info-params__param">
-                        <div class="info-params__marker"></div>
-                        <div class="info-params__label">Status: on</div>
-                    </div>
-                    <div class="info-params-toggle custom-control custom-switch">
-                        <input type="checkbox" class="custom-control-input" id="customSwitch1">
-                        <label class="info-params-toggle__label custom-control-label" for="customSwitch1">Toggle this switch element</label>
-                    </div>
-                </div> -->
-
-                <!-- <div class="info-params">
-                    <div class="info-params__param">
-                        <div class="info-params__marker"></div>
-                        <div class="info-params__label">Type: switch</div>
-                    </div>
-                    <div class="info-params__param">
-                        <div class="info-params__marker"></div>
-                        <div class="info-params__label">IP: 192.168.1.1</div>
-                    </div>
-                    <div class="info-params__param">
-                        <div class="info-params__marker"></div>
-                        <div class="info-params__label">Status: on</div>
-                    </div>
-                    <div class="info-params-toggle custom-control custom-switch">
-                        <input type="checkbox" class="custom-control-input" id="customSwitch1">
-                        <label class="info-params-toggle__label custom-control-label" for="customSwitch1">Toggle this switch element</label>
-                    </div>
-                </div> -->
                 <div class="info-controls">
                     <div class="info-controls__control"></div>
-                    <!-- <div class="custom-control custom-switch">
-                        <input type="checkbox" class="custom-control-input" id="customSwitch1">
-                        <label class="custom-control-label" for="customSwitch1">Toggle this switch element</label>
-                      </div>
-                      <div class="custom-control custom-switch">
-                        <input type="checkbox" class="custom-control-input" disabled id="customSwitch2">
-                        <label class="custom-control-label" for="customSwitch2">Disabled switch element</label>
-                      </div> -->
                 </div>
             </div>
     </div>
